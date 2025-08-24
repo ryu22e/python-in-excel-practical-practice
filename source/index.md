@@ -53,7 +53,13 @@
 
 ### 導入方法
 
+* TODO Python in Excelを利用できるプラットフォームを書く
+
 ### 使い方
+
+任意のセルで`=PY(`と入力するか、Ctrl + Alt + Shift + Pを入力。
+
+TODO 画面スクリーンショットを貼る
 
 ## Python in Excel実践プラクティスの紹介
 
