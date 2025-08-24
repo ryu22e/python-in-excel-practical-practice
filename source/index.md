@@ -51,15 +51,47 @@
 イメージ図
 ```
 
-### 導入方法
-
-* TODO Python in Excelを利用できるプラットフォームを書く
-
 ### 使い方
 
 任意のセルで`=PY(`と入力するか、Ctrl + Alt + Shift + Pを入力。
 
 TODO 画面スクリーンショットを貼る
+
+### 導入方法（2025年9月時点）
+
+現在、Excelは以下のプラットフォーム用のアプリケーションがある。
+
+* Excel for Windows
+* Excel for Mac
+* Excel on the web
+* Excel for iPad / iPhone / Android
+
+参考: <https://support.microsoft.com/ja-jp/office/excel-%E3%81%A7%E3%81%AE-python-%E3%81%AE%E5%8F%AF%E7%94%A8%E6%80%A7-781383e6-86b9-4156-84fb-93e786f7cab0>
+
+### Excel for Windowsの場合
+
+以下のサブスクリプションで利用可能。
+
+* Enterprise / Business
+* Family / Personal
+
+### Excel for Macの場合
+
+以下のサブスクリプションで利用可能。
+
+* Enterprise / Business
+* Family / Personal（ただしプレビュー版）
+
+### Excel on the webの場合
+
+以下のサブスクリプションで利用可能。
+
+* Enterprise / Business
+* Family / Personal（ただしプレビュー版）
+
+### Excel for iPad / iPhone / Androidの場合
+
+非対応（Pythonコードを含むExcelブックを表示できるが、再計算はできない）。
 
 ## Python in Excel実践プラクティスの紹介
 
