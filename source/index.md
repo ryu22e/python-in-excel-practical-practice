@@ -33,6 +33,9 @@
 
 ### トークの​構成
 
+* Python in Excelの概要について軽く説明
+* Python in Excel実践プラクティスの紹介
+
 ## Python in Excelの概要について軽く説明
 
 ## Python in Excel実践プラクティスの紹介
