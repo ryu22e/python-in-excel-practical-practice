@@ -46,3 +46,9 @@ Python in Excelではseaborn、matplotlibなどを使ってグラフを描画す
 ### その他Tips
 
 その他の細かいTipsについて紹介します。
+
+## 最後に
+
+### まとめ
+
+### ご清聴ありがとうございました
