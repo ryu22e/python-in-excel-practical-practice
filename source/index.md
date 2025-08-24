@@ -43,6 +43,14 @@
 * ExcelブックにPythonコードを埋め込めるExcelの機能
 * セルに書かれたデータを読み取り、Pandasで加工したり、加工した内容をグラフで描画できる
 
+### Python in Excelの仕組み
+
+```{figure} _static/img/python-in-excel-image.jpg
+:alt: イメージ図
+
+イメージ図
+```
+
 ## Python in Excel実践プラクティスの紹介
 
 ### 実践プラクティスの情報ソースについて紹介
