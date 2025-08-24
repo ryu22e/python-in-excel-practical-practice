@@ -10,11 +10,26 @@
 
 ### 自己紹介
 
+* Ryuji Tsutsui@ryu22e
+* さくらインターネット株式会社所属
+* Python歴は14年くらい（主にDjango）
+* Python Boot Camp、Shonan.py、GCPUG Shonanなどコミュニティ活動もしています
+* 著書（共著）：『[Python実践レシピ](https://gihyo.jp/book/2022/978-4-297-12576-9)』
+
 ### 今​日話したい​こと
+
+* ExcelブックにPythonコードを埋め込めるExcelの機能「Python in Excel」の紹介
+* Python in Excelを実際に使う上で便利なテクニックの紹介
 
 ### この​トークの​対象者
 
+* Excelの基本的な使い方が分かる人
+* Pythonの基礎的な文法が分かる人
+
 ### この​トークで​得られる​こと
+
+* Python in Excelの概要
+* Python in Excelを実際に使う際にどう書けばいいのか
 
 ### トークの​構成
 
