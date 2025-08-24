@@ -38,6 +38,11 @@
 
 ## Python in Excelの概要について軽く説明
 
+### Python in Excelとは
+
+* ExcelブックにPythonコードを埋め込めるExcelの機能
+* セルに書かれたデータを読み取り、Pandasで加工したり、加工した内容をグラフで描画できる
+
 ## Python in Excel実践プラクティスの紹介
 
 ### 実践プラクティスの情報ソースについて紹介
