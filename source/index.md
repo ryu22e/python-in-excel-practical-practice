@@ -100,6 +100,12 @@ TODO 画面スクリーンショットを貼る
 Python in Excelを便利に使いこなすためのプラクティスを紹介しているサイトを紹介します。
 本トークの内容は、これらのサイトをベースに作成しています。
 
+```{revealjs-break}
+```
+
+* [Microsoft公式サイト（日本語）](https://support.microsoft.com/ja-jp/office/python-in-excel-%E3%81%AE%E6%A6%82%E8%A6%81-55643c2e-ff56-4168-b1ce-9428c8308545)
+* [Anacondaの公式ブログ（英語）](https://www.anaconda.com/blog)
+
 ### 元のデータはPython以外を使って加工しない
 
 通常のプログラミングと同様に、Python in Excelにおいても再利用性が高いコードを書くためのテクニックがあります。ここでは、プラクティスを使わなかった場合、使った場合のExcelブックを比較し、プラクティスがどのように役立つのかを説明します。
