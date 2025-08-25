@@ -130,21 +130,21 @@ TODO 画面スクリーンショットを貼る
 
 ### Pythonコードの例
 
-.. revealjs-code-block:: python
+```{revealjs-code-block} python
+# データの読み込み
+# xl()関数の第1引数でテーブル名を、第2引数でテーブルのヘッダーを除いて取得するかを指定
+df = xl("PyCamp開催実績[#すべて]", headers=True)
 
-    # データの読み込み
-    # xl()関数の第1引数でテーブル名を、第2引数でテーブルのヘッダーを除いて取得するかを指定
-    df = xl("PyCamp開催実績[#すべて]", headers=True)
+# 採番されていない行（年度を表す行）を除去
+# df["No."]は「No.」列の値を取得
+filtered_df = df[pd.to_numeric(df["No."], errors="coerce").notnull()]
+# イベントが中止になった行を除去
+filtered_df = filtered_df[~filtered_df["イベント"].str.contains("中止")]
 
-    # 採番されていない行（年度を表す行）を除去
-    # df["No."]は「No.」列の値を取得
-    filtered_df = df[pd.to_numeric(df["No."], errors="coerce").notnull()]
-    # イベントが中止になった行を除去
-    filtered_df = filtered_df[~filtered_df["イベント"].str.contains("中止")]
-
-    # 参加者の「名」を除去して数値に変換
-    filtered_df["参加者"] = filtered_df["参加者"].str.replace("名", "")
-    filtered_df["参加者"] = filtered_df["参加者"].astype(int)
+# 参加者の「名」を除去して数値に変換
+filtered_df["参加者"] = filtered_df["参加者"].str.replace("名", "")
+filtered_df["参加者"] = filtered_df["参加者"].astype(int)
+```
 
 ### コードは複数のセルに分割して書く
 
@@ -153,8 +153,32 @@ Python in Excelでは、ある程度長いコードを書く場合、1つのセ�
 
 ### 各セルに「文字列リテラルのコメント」を書く
 
-Pythonは「#」より右側の文字列はコメントとして扱われます。Python in Excelでもコメントを書くことができますが、もっとコードを読みやすくするためのテクニックがあります。
-ここでは、「文字列リテラルのコメント」の使い方、「文字列リテラルのコメント」が通常のコメントより優れている点について紹介します。
+悪い例:
+
+TODO 画面スクリーンショットを貼る
+
+### 前述の例の何が問題か
+
+* `#`のコメントだと、該当セルをクリックしないと内容が読めない
+* Excelブックを開いたときに処理全体の概要を把握しにくい
+
+### では、どうするか
+
+最後の行に「文字列リテラルのコメント」を書く。
+
+```{revealjs-code-block} python
+df = xl("日常生活圏域等別データ[#すべて]", headers=True)
+"データの読み込み"
+```
+
+### 「⁠文字列リテラルのコメント」とは
+
+* Python in Excelでは、最後の行の値がセルに表示される仕様
+* これを利用して、最後の行に文字列リテラルを書き、コメントの代わりに使う
+
+### 「⁠文字列リテラルの​コメント」を使うとこうなる
+
+TODO 画はは面スクリーンショッ貼る
 
 ### グラフの描画時に日本語フォントを指定する
 
