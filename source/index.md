@@ -199,7 +199,20 @@ TODO 画はは面スクリーンショッ貼る
 
 ### グラフの描画時に日本語フォントを指定する
 
-Python in Excelではseaborn、matplotlibなどを使ってグラフを描画することができますが、デフォルトではグラフ中の日本語が文字化けします。ここでは、グラフに日本語を表示させる方法について紹介します。
+グラフに日本語を埋め込む場合、デフォルトだとこうなる。
+
+TODO スクショを貼る
+
+### フォントの指定方法
+
+メイリオフォントがあるので、これを使う。
+
+```{revealjs-code-block} python
+# seabornの場合
+sns.set(font="Meiryo")  # 日本語フォントを指定
+# matplotlibの場合
+plt.rcParams["font.family"] = "Meiryo"
+```
 
 ### その他Tips
 
