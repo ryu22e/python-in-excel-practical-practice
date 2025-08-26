@@ -106,7 +106,7 @@ Python in Excelを便利に使いこなすためのプラクティスを紹介�
 * [Microsoft公式サイト（日本語）](https://support.microsoft.com/ja-jp/office/python-in-excel-%E3%81%AE%E6%A6%82%E8%A6%81-55643c2e-ff56-4168-b1ce-9428c8308545)
 * [Anacondaの公式ブログ（英語）](https://www.anaconda.com/blog)
 
-### 元のデータはPython以外を使って加工しない
+### 1. 元のデータはPython以外を使って加工しない
 
 Python Boot Camp開催実績:
 
@@ -146,7 +146,7 @@ filtered_df["参加者"] = filtered_df["参加者"].str.replace("名", "")
 filtered_df["参加者"] = filtered_df["参加者"].astype(int)
 ```
 
-### コードは複数のセルに分割して書く
+### 2. コードは複数のセルに分割して書く
 
 悪い例:
 
@@ -168,7 +168,7 @@ TODO 画面スクリーンショットを貼る
 
 TODO 画面スクリーンショットを貼る
 
-### 各セルに「文字列リテラルのコメント」を書く
+### 3. 各セルに「文字列リテラルのコメント」を書く
 
 悪い例:
 
@@ -197,7 +197,7 @@ df = xl("日常生活圏域等別データ[#すべて]", headers=True)
 
 TODO 画はは面スクリーンショッ貼る
 
-### グラフの描画時に日本語フォントを指定する
+### 4. グラフの描画時に日本語フォントを指定する
 
 グラフに日本語を埋め込む場合、デフォルトだとこうなる。
 
@@ -214,7 +214,7 @@ sns.set(font="Meiryo")  # 日本語フォントを指定
 plt.rcParams["font.family"] = "Meiryo"
 ```
 
-### その他Tips
+### 5. その他Tips
 
 その他の細かいTipsについて紹介します。
 
