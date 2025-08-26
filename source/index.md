@@ -114,19 +114,21 @@ Python in Excelを便利に使いこなすためのプラクティスを紹介�
 
 ### 1. 元のデータはPython以外を使って加工しない
 
-Python Boot Camp開催実績:
+```{figure} _static/img/python-boot-camp.png
+:alt: Python Boot Camp開催実績
 
-TODO 画面スクリーンショットを貼る
+Python Boot Camp開催実績
+```
 
 これをPython in Excelで扱う際、不要なデータがいくつか含まれている。
 
 ### 前述の例の中で不要なデータ
 
-たとえば、各イベントの参加者数の推移をグラフにする際は、以下のデータは不要。
+```{figure} _static/img/python-boot-camp-2.png
+:alt: 前述の例の中で不要なデータ
 
-* 「2018年⁠」⁠、「⁠2019年」など年度を示す行
-* 中止になったイベントの行
-* 「参加者」の数字の末尾にある「名」
+前述の例の中で不要なデータ
+```
 
 ### 不要なデータをどうやって取り除くか？
 
