@@ -227,6 +227,7 @@ plt.rcParams["font.family"] = "Meiryo"
 その他の細かいTipsについて紹介します。
 
 * Power Queryと組み合わせて使う
+* セルに埋め込まれた画像を読み取る
 
 ## 最後に
 
