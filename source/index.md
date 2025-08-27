@@ -226,6 +226,8 @@ plt.rcParams["font.family"] = "Meiryo"
 
 その他の細かいTipsについて紹介します。
 
+* Power Queryと組み合わせて使う
+
 ## 最後に
 
 ### まとめ
