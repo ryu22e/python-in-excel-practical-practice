@@ -58,12 +58,6 @@ gihyo.jp さんの連載『Python Monthly Topics』で私が書いた以下の�
 イメージ図
 ```
 
-### 使い方
-
-任意のセルで`=PY(`と入力するか、Ctrl + Alt + Shift + Pを入力。
-
-TODO 画面スクリーンショットを貼る
-
 ### 導入方法（2025年9月時点）
 
 現在、Excelは以下のプラットフォーム用のアプリケーションがある。
@@ -99,6 +93,12 @@ TODO 画面スクリーンショットを貼る
 ### Excel for iPad / iPhone / Androidの場合
 
 非対応（Pythonコードを含むExcelブックを表示できるが、再計算はできない）。
+
+### 使い方
+
+任意のセルで`=PY(`と入力するか、Ctrl + Alt + Shift + Pを入力。
+
+TODO 画面スクリーンショットを貼る
 
 ## Python in Excel実践プラクティスの紹介
 
