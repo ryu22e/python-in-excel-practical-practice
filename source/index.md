@@ -21,6 +21,13 @@
 * ExcelブックにPythonコードを埋め込めるExcelの機能「Python in Excel」の紹介
 * Python in Excelを実際に使う上で便利なテクニックの紹介
 
+### トークの元ネタ
+
+gihyo.jp さんの連載『Python Monthly Topics』で私が書いた以下の記事を元にしています。
+
+* [ExcelにPythonコードを埋め込める「Python in Excel」の紹介 | gihyo.jp](https://gihyo.jp/article/2024/02/monthly-python-2402)
+* [Python in Excel実践プラクティスの紹介 | gihyo.jp](https://gihyo.jp/article/2025/01/monthly-python-2501)
+
 ### この​トークの​対象者
 
 * Excelの基本的な使い方が分かる人
