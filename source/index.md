@@ -232,7 +232,18 @@ plt.rcParams["font.family"] = "Meiryo"
 その他の細かいTipsについて紹介します。
 
 * Power Queryと組み合わせて使う
-* セルに埋め込まれた画像を読み取る
+* チートシートを活用する
+
+### Power Queryと組み合わせて使う
+
+* Python in Excelは、セキュリティ上の制約により、ネットワーク通信ができない
+* そんなときは、Power Queryという別の機能と組み合わせるといい
+
+### チートシートを活用する
+
+Anacondaが公開している以下のチートシートがあると便利。
+
+[Master Python in Excel with Anaconda’s Python in Excel Cheat Sheet | Anaconda](https://www.anaconda.com/blog/python-in-excel-cheat-sheet)
 
 ## 最後に
 
