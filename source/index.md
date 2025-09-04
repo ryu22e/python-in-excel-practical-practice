@@ -257,3 +257,9 @@ Python in Excelは以下のプラクティスを取り入れると便利！
 4. グラフの描画時に日本語フォントを指定する
 
 ### ご清聴ありがとうございました
+
+```{figure} _static/img/thank-you-for-your-attention.*
+:alt: Python in Excelの便利さに熱狂する広島県民たち
+
+Python in Excelの便利さに熱狂する広島県民たち
+```
