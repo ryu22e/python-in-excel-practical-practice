@@ -105,6 +105,11 @@ gihyo.jp さんの連載『Python Monthly Topics』で私が書いた以下の�
 ```{video} _static/mp4/usage1.mp4
 ```
 
+### テーブルを読み込んでグラフを作ってみる（デモ）
+
+```{video} _static/mp4/usage2.mp4
+```
+
 ## Python in Excel実践プラクティスの紹介
 
 1. 元のデータはPython以外を使って加工しない
