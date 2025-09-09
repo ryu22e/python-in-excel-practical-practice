@@ -100,7 +100,10 @@ gihyo.jp さんの連載『Python Monthly Topics』で私が書いた以下の�
 
 任意のセルで`=PY(`と入力するか、Ctrl + Alt + Shift + Pを入力。
 
-TODO 画面スクリーンショットを貼る
+### 簡単な計算をやってみる（デモ）
+
+```{video} _static/mp4/usage1.mp4
+```
 
 ## Python in Excel実践プラクティスの紹介
 
