@@ -246,7 +246,8 @@ df = xl("日常生活圏域等別データ[#すべて]", headers=True)
 
 グラフに日本語を埋め込む場合、デフォルトだとこうなる。
 
-TODO スクショを貼る
+```{video} _static/mp4/04-bad.mp4
+```
 
 ### フォントの指定方法
 
@@ -257,6 +258,11 @@ TODO スクショを貼る
 sns.set(font="Meiryo")  # 日本語フォントを指定
 # matplotlibの場合
 plt.rcParams["font.family"] = "Meiryo"
+```
+
+### フォントの指定方法のデモ
+
+```{video} _static/mp4/04-good.mp4
 ```
 
 ### 5. その他Tips
