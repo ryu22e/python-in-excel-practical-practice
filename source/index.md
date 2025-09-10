@@ -171,6 +171,11 @@ filtered_df["参加者"] = filtered_df["参加者"].str.replace("名", "")
 filtered_df["参加者"] = filtered_df["参加者"].astype(int)
 ```
 
+### 前述の内容のデモ
+
+```{video} _static/mp4/pycamp.mp4
+```
+
 ### 2. コードは複数のセルに分割して書く
 
 悪い例（スクショだと見づらいのでデモをやります）
