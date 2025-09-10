@@ -100,7 +100,15 @@ gihyo.jp さんの連載『Python Monthly Topics』で私が書いた以下の�
 
 任意のセルで`=PY(`と入力するか、Ctrl + Alt + Shift + Pを入力。
 
-TODO 画面スクリーンショットを貼る
+### 簡単な計算をやってみる（デモ）
+
+```{video} _static/mp4/usage1.mp4
+```
+
+### テーブルを読み込んでグラフを作ってみる（デモ）
+
+```{video} _static/mp4/usage2.mp4
+```
 
 ## Python in Excel実践プラクティスの紹介
 
@@ -163,9 +171,17 @@ filtered_df["参加者"] = filtered_df["参加者"].str.replace("名", "")
 filtered_df["参加者"] = filtered_df["参加者"].astype(int)
 ```
 
+### 前述の内容のデモ
+
+```{video} _static/mp4/pycamp.mp4
+```
+
 ### 2. コードは複数のセルに分割して書く
 
-悪い例（スクショだと見づらいのでデモをやります）
+悪い例:
+
+```{video} _static/mp4/02-bad.mp4
+```
 
 ### 前述の例の何が問題か
 
@@ -175,7 +191,10 @@ filtered_df["参加者"] = filtered_df["参加者"].astype(int)
 
 ### 改善例
 
-前述のコードを複数のセルに分割して書く（デモをやります）。
+前述のコードを複数のセルに分割して書く:
+
+```{video} _static/mp4/02-good.mp4
+```
 
 ### 複数セルにPythonコードを書いた場合の実行順序
 
@@ -185,9 +204,17 @@ filtered_df["参加者"] = filtered_df["参加者"].astype(int)
 2. 1番下の行まで上記と同様に実行
 3. 右隣のシートから最後のシートまで1.〜2.と同様に実行
 
+### 複数セルにPythonコードを書いた場合の実行順序（デモ）
+
+```{video} _static/mp4/02-python-order.mp4
+```
+
 ### 3. 各セルに「文字列リテラルのコメント」を書く
 
-デモをやります。
+悪い例:
+
+```{video} _static/mp4/03-bad.mp4
+```
 
 ### `#`でコメントすると何が困るか
 
@@ -212,11 +239,15 @@ df = xl("日常生活圏域等別データ[#すべて]", headers=True)
 
 デモをやります。
 
+```{video} _static/mp4/03-good.mp4
+```
+
 ### 4. グラフの描画時に日本語フォントを指定する
 
 グラフに日本語を埋め込む場合、デフォルトだとこうなる。
 
-TODO スクショを貼る
+```{video} _static/mp4/04-bad.mp4
+```
 
 ### フォントの指定方法
 
@@ -227,6 +258,11 @@ TODO スクショを貼る
 sns.set(font="Meiryo")  # 日本語フォントを指定
 # matplotlibの場合
 plt.rcParams["font.family"] = "Meiryo"
+```
+
+### フォントの指定方法のデモ
+
+```{video} _static/mp4/04-good.mp4
 ```
 
 ### 5. その他Tips
