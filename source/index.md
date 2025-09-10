@@ -211,7 +211,10 @@ filtered_df["参加者"] = filtered_df["参加者"].astype(int)
 
 ### 3. 各セルに「文字列リテラルのコメント」を書く
 
-デモをやります。
+悪い例:
+
+```{video} _static/mp4/03-bad.mp4
+```
 
 ### `#`でコメントすると何が困るか
 
@@ -225,6 +228,11 @@ filtered_df["参加者"] = filtered_df["参加者"].astype(int)
 ```{revealjs-code-block} python
 df = xl("日常生活圏域等別データ[#すべて]", headers=True)
 "データの読み込み"
+```
+
+### 「文字列リテラルのコメント」のデモ
+
+```{video} _static/mp4/03-good.mp4
 ```
 
 ### 「⁠文字列リテラルのコメント」とは
