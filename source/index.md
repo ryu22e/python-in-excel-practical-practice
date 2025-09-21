@@ -60,6 +60,48 @@ gihyo.jp さんの連載『Python Monthly Topics』で私が書いた以下の�
 イメージ図
 ```
 
+### Q. Excel上でPythonを使えると何が嬉しいの？
+
+* Excelブックの読み書きができるOpenPyXLなら既にある
+* JupyterLabやAnacondaを使えばよくない？
+
+### A. こんなケースで使うと便利
+
+```{figure} _static/img/use-case-1.jpg
+:alt: こんなケースで使うと便利
+
+「本年度の売上推移をまとめてグラフにしましたー」
+```
+
+```{revealjs-break}
+```
+
+```{figure} _static/img/use-case-2.jpg
+:alt: こんなケースで使うと便利
+
+（後日）「あれっ、このデータ間違ってない？」
+```
+
+### JupyterLab、Anacondaなどを使っている場合
+
+```{figure} _static/img/use-case-3-1.jpg
+:alt: JupyterLab、Anacondaなどを使っている場合
+
+「この数値を修正しましたー。グラフの再作成をお願いします。」
+```
+
+### Python in Excel使っている場合
+
+```{figure} _static/img/use-case-3-2.jpg
+:alt: Python in Excel使っている場合
+
+「数値を修正したらコードが再実行されてグラフが再作成された！」
+```
+
+### Python in Excelの便利なところ
+
+データを編集する人とPythonを書く人の責務を分離できる。
+
 ### 導入方法（2025年9月時点）
 
 現在、Excelは以下のプラットフォーム用のアプリケーションがある。
@@ -185,9 +227,9 @@ filtered_df["参加者"] = filtered_df["参加者"].astype(int)
 
 ### 前述の例の何が問題か
 
-1. 長いコードだと自分が読みたいコードだけにフォーカスしにくい（毎回先頭から読む必要がある）
+1. 長いコードだと自分が読みたいコードだけにフォーカスしにくい
 2. 共通のロジックを再利用しにくい
-3. コードの途中の変数の内容を確認しにくい（Python in Excelではbreakpoint()関数を使ったデバッグはできない）
+3. コードの途中の変数の内容を確認しにくい
 
 ### 改善例
 
