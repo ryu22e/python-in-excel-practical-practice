@@ -60,6 +60,48 @@ gihyo.jp さんの連載『Python Monthly Topics』で私が書いた以下の�
 イメージ図
 ```
 
+### Q. Excel上でPythonを使えると何が嬉しいの？
+
+* Excelブックの読み書きができるOpenPyXLなら既にある
+* JupyterLabやAnacondaを使えばよくない？
+
+### A. こんなケースで使うと便利
+
+```{figure} _static/img/use-case-1.jpg
+:alt: こんなケースで使うと便利
+
+「本年度の売上推移をまとめてグラフにしましたー」
+```
+
+```{revealjs-break}
+```
+
+```{figure} _static/img/use-case-2.jpg
+:alt: こんなケースで使うと便利
+
+（後日）「あれっ、このデータ間違ってない？」
+```
+
+### JupyterLab、Anacondaなどを使っている場合
+
+```{figure} _static/img/use-case-3-1.jpg
+:alt: JupyterLab、Anacondaなどを使っている場合
+
+「この数値を修正しましたー。グラフの再作成をお願いします。」
+```
+
+### Python in Excel使っている場合
+
+```{figure} _static/img/use-case-3-2.jpg
+:alt: Python in Excel使っている場合
+
+「数値を修正したらコードが再実行されてグラフが再作成された！」
+```
+
+### Python in Excelの便利なところ
+
+データを編集する人とPythonを書く人の責務を分離できる。
+
 ### 導入方法（2025年9月時点）
 
 現在、Excelは以下のプラットフォーム用のアプリケーションがある。
