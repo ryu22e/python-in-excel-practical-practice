@@ -18,6 +18,16 @@ PyCon JP 2025トーク資料
 * Python Boot Camp、Shonan.py、GCPUG Shonanなどコミュニティ活動もしています
 * 著書（共著）：『[Python実践レシピ](https://gihyo.jp/book/2022/978-4-297-12576-9)』
 
+### 今回初広島です
+
+昨夜は広島伝統の味「蓬莱」の天津丼を食べてきました。
+
+```{figure} _static/img/hourai.jpeg
+:alt: 「蓬莱」の天津丼
+
+「蓬莱」の天津丼
+```
+
 ### 今​日話したい​こと
 
 * ExcelブックにPythonコードを埋め込めるExcelの機能「Python in Excel」の紹介
